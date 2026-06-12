@@ -1,6 +1,6 @@
 // Service worker — caches the app shell so the PWA opens instantly and works
 // when the network is flaky. API calls (POST) are never cached; they pass through.
-const CACHE = 'tareas-v4';
+const CACHE = 'tareas-v5';
 const SHELL = [
   './index.html',
   './manifest.json',
